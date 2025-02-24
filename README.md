@@ -13,31 +13,30 @@ This project predicts customer churn using the Telco dataset. The model is train
 
 ## 🔧 Setup Instructions
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/your-username/churn-prediction.git
-cd churn-prediction
+1️⃣ Clone the Repository
+   ```bash
+   git clone https://github.com/your-username/churn-prediction.git
+   cd churn-prediction
 2️⃣ Create and Activate Virtual Environment
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate 
+   bash
+   Copy
+   Edit
+   python -m venv venv
+   source venv/bin/activate 
 3️⃣ Install Dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
+   bash
+   Copy
+   Edit
+   pip install -r requirements.txt
 4️⃣ Train the Model
-Train the Model
-bash
-Copy
-Edit
-python src/train.py
+   Train the Model
+   bash
+   Copy
+   Edit
+   python src/train.py
 🚀 Running the API
-Start the FastAPI server:
-
-bash
-Copy
-Edit
-uvicorn src.app:app --host 0.0.0.0 --port 8000
+   Start the FastAPI server:
+   bash
+   Copy
+   Edit
+   uvicorn src.app:app --host 0.0.0.0 --port 8000
